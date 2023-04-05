@@ -40,7 +40,7 @@ return packer.startup(function(use)
   use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
   use("vim-scripts/ReplaceWithRegister") -- replace with register contents using motion (gr + motion)
   use {'numToStr/Comment.nvim'}  -- commenting with gc
-
+  use("lukas-reineke/indent-blankline.nvim") -- Indent Blankline 
 
   use("nvim-tree/nvim-tree.lua")  -- file explorer
   use("nvim-tree/nvim-web-devicons") -- vs-code like icons
@@ -79,7 +79,7 @@ return packer.startup(function(use)
       {'hrsh7th/cmp-nvim-lsp'},
       {'hrsh7th/cmp-nvim-lua'},
 
-      -- Snippets
+      -- snippets
       {'L3MON4D3/LuaSnip'},
       {'saadparwaiz1/cmp_luasnip'},
       -- Snippet Collection (Optional)
